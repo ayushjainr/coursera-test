@@ -1,0 +1,5 @@
+<h1>Greetings, <%= link_to(@name,"https://en.wikipedia.org/wiki/#{@name}") %> </h1>
+<p> The time now is <%= formattedTime(@time) %> </p>
+<p> <b> <%= @name %> </b>, it's your chance to smack the ball out of the park!</p>	
+<h2> Times Displayed = <%= @times_displayed %></h2>
+<p> <%= link_to "GoodBye", greeter_goodbye_path %></p>	
